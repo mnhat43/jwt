@@ -1,0 +1,44 @@
+.login-container {
+    background-color: #f0f2f5;
+    min-height: 100vh;
+    padding-top: 20px;
+    .container {
+        margin: 0 auto;
+    }
+    .content-left {
+        margin-top: 50px;
+        .brand {
+            text-transform: uppercase;
+            color: #1877f2;
+            font-size: 30px;
+            font-weight: 700;
+        }
+        .deail {
+            font-size: 20px;
+        }
+    }
+    .content-right {
+        background-color: white;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        box-shadow:
+            0 2px 4px rgba(0, 0, 0, 0.1),
+            0 8px 16px rgba(0, 0, 0, 0.1);
+
+        .brand {
+            text-transform: uppercase;
+            color: #1877f2;
+            font-size: 20px;
+            text-align: center;
+            font-weight: 700;
+        }
+
+        .forgot-password {
+            text-decoration: none;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
